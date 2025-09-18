@@ -18,4 +18,13 @@ public class AppTest
     {
         assertEquals("Hello World", App.hello()  );
     }
+
+
+    @Test
+    public void testHelloParametre(){
+        String parametre = "Coucou";
+        assertEquals(parametre, App.hello(parametre));
+    }
+
+
 }
