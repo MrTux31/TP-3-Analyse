@@ -10,11 +10,9 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+    
     @Test
-    public void shouldAnswerWithTrue()
+    public void testHelloSansParam()
     {
         assertEquals("Hello World", App.hello()  );
     }
